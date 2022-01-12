@@ -28,5 +28,7 @@ namespace SnakeApp1
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
+
+       
     }
 }
