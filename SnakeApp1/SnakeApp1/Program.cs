@@ -12,7 +12,7 @@ namespace SnakeApp1
             //Console.WriteLine(Console.LargestWindowHeight);
             
 
-           //Console.SetBufferSize(80, 25);
+           Console.SetBufferSize(80, 25);
 
             
 
@@ -20,7 +20,7 @@ namespace SnakeApp1
             HorizontalLine upLine = new HorizontalLine(0, 78, 0, '+');
             HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
             VerticalLine leftLine = new VerticalLine(0, 24, 0,'+');
-            VerticalLine rightLine = new VerticalLine(0, 24, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
             upLine.Drow();
             downLine.Drow();
             leftLine.Drow();
@@ -34,6 +34,9 @@ namespace SnakeApp1
             Emploee e = new Emploee();
             e.age = 42;
             e.pay = 30000;
+
+
+            Console.ReadLine();
         }
 
     }
