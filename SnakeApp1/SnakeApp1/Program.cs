@@ -7,12 +7,12 @@ namespace SnakeApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
-            Console.WriteLine(Console.LargestWindowWidth);
-            Console.WriteLine(Console.LargestWindowHeight);
+            //Console.WriteLine("");
+            //Console.WriteLine(Console.LargestWindowWidth);
+            //Console.WriteLine(Console.LargestWindowHeight);
             
 
-            //Console.SetBufferSize(214, 51);
+           //Console.SetBufferSize(80, 25);
 
             
 
