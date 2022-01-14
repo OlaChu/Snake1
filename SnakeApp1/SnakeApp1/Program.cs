@@ -12,7 +12,7 @@ namespace SnakeApp1
             //Console.WriteLine(Console.LargestWindowHeight);
             
 
-           Console.SetBufferSize(80, 25);
+           //Console.SetBufferSize(80, 25);
 
             
 
@@ -29,12 +29,8 @@ namespace SnakeApp1
 
             //Отрисовка точек
             Point p = new Point(4, 5, '*');
-            p.Draw();
-
-            Emploee e = new Emploee();
-            e.age = 42;
-            e.pay = 30000;
-
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
 
             Console.ReadLine();
         }
