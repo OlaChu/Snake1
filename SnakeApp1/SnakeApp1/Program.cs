@@ -14,7 +14,7 @@ namespace SnakeApp1
             Point p = new Point(4, 5, '*');
             Figure fSnake = new Snake(p, 4, Direction.RIGHT);
             Draw(fSnake);
-            Snake cnake = (Snake)fSnake;
+            Snake snake = (Snake) fSnake;
 
             HorizontalLine h1 = new HorizontalLine(0, 5, 6, '&');
 
